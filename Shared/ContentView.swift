@@ -20,7 +20,7 @@ struct ContentView: View {
                         .padding()
                     
                     Button(action: {
-                        nombre = "Quesadilla"
+                        nombre = "Nuevo alumno"
                     }) {
                         Text("Pulsame")
                             .foregroundColor(.blue)
@@ -28,7 +28,7 @@ struct ContentView: View {
                             )
                     }
                     
-                    Image("Supra-MK5").resizable().aspectRatio(contentMode: .fit)
+                    Image("pau").resizable().aspectRatio(contentMode: .fit)
                 }
             }
         }
