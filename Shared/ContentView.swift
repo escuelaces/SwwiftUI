@@ -28,7 +28,7 @@ struct ContentView: View {
                             )
                     }
                     
-                    Image("Supra-MK5").resizable().aspectRatio(contentMode: .fit)
+                    Image("foto2").resizable().aspectRatio(contentMode: .fit)
                 }
             }
         }
